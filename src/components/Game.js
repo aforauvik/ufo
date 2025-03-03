@@ -200,7 +200,7 @@ const Game = () => {
 						</button>
 					) : gameOver ? (
 						<div className="w-full px-8 mx-auto md:px-12 lg:px-24">
-							<h2 className="text-center text-xl leading-normal font-semibold text-white dark:text-white my-2">
+							<h2 className="text-center text-base lg:text-xl leading-normal font-semibold text-white dark:text-white my-2">
 								Game Over! Final Score: {score}
 							</h2>
 							<div className="flex flex-row justify-center items-center gap-2">
