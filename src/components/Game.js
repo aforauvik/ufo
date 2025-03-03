@@ -95,7 +95,7 @@ const Game = () => {
 	};
 
 	const handleShare = () => {
-		const message = `I scored ${score} points on ${difficulty} mode in Whack-a-UFO! Play Whack-a-UFO and see if you can score higher than me! Play here - https://whackamole.auvik.me/`;
+		const message = `I scored ${score} points on ${difficulty} mode in Whack-a-UFO! Play Whack-a-UFO and see if you can score higher than me! Play here - https://ufo.auvik.me/`;
 		navigator.clipboard.writeText(message);
 		setMessage("Score copied to clipboard!");
 	};
@@ -104,7 +104,7 @@ const Game = () => {
 		<div className="flex items-center flex-col justify-center lg:mx-24 sm:px-2 md:px-4">
 			<div className="p-4 bg-white bg-opacity-10 rounded-xl shadow-sm dark:bg-neutral-950 dark:border-neutral-900 sm:w-1/2 w-full">
 				{message && (
-					<div className="message absolute top-4 left-1/2 -translate-x-1/2 flex items-center justify-center transition-all duration-200 focus:ring-2 focus:outline-none text-white bg-emerald-600 px-4 py-2 text-sm font-semibold rounded-md shadow-lg">
+					<div className="message absolute top-4 left-1/2 -translate-x-1/2 flex items-center justify-center text-center transition-all duration-200 focus:ring-2 focus:outline-none text-white bg-emerald-600 px-4 py-2 text-sm font-semibold rounded-md shadow-lg">
 						{message}
 					</div>
 				)}
