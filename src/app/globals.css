@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+
+body {
+	color: var(--foreground);
+	background-image: url("/bg.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	/* background: var(--background); */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.message {
+	animation: slideDown 0.5s forwards, fadeOut 0.5s 5s forwards;
+}
+
+@keyframes slideDown {
+	from {
+		top: -30px;
+	}
+	to {
+		top: 0;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		top: 0;
+	}
+	to {
+		top: -180px;
+	}
+}
