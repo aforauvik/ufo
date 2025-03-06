@@ -14,10 +14,10 @@ function Landing() {
 	return (
 		<div className="p-4 flex flex-col items-center justify-center mx-auto size-full sm:w-1/2 w-full">
 			<h1 className="lg:text-5xl text-3xl text-center uppercase font-semibold my-2">
-				Whack A UFO
+				Rescue An Alien
 			</h1>
 			<p className="text-base leading-normal font-medium">
-				Rescue the good ones, whack the bad ones!
+				Rescue the good ones, leave the bad ones!
 			</p>
 			<Image
 				width={500}

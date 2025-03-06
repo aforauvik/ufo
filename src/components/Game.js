@@ -95,7 +95,7 @@ const Game = () => {
 	};
 
 	const handleShare = () => {
-		const message = `I scored ${score} points on ${difficulty} mode in Whack-a-UFO! Play Whack-a-UFO and see if you can score higher than me! Play here - https://ufo.auvik.me/`;
+		const message = `I scored ${score} points on ${difficulty} mode in Rescue-an-Alien! Play Rescue-an-Alien and see if you can score higher than me! Play here - https://ufo.auvik.me/`;
 		navigator.clipboard.writeText(message);
 		setMessage("Score copied to clipboard!");
 	};
