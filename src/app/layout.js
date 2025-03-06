@@ -12,8 +12,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-	title: "Whack A UFO",
-	description: "Rescue the good ones, whack the bad ones!",
+	title: "Rescue An Alien",
+	description: "Rescue the good ones, leave the bad ones!",
 };
 
 export default function RootLayout({children}) {
